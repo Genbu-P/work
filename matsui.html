@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>松井証券 日本株アプリ起動</title>
+  <script>
+    window.onload = function() {
+      var intentUrl = "intent:#Intent;" +
+                      "package=jp.co.matsui.stockapp;" +
+                      "S.browser_fallback_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Djp.co.matsui.stockapp;" +
+                      "end;";
+      window.location.replace(intentUrl);
+    };
+  </script>
+</head>
+<body style="font-family: sans-serif; text-align: center; padding-top: 50px;">
+  <p>松井証券アプリを起動しています...</p>
+</body>
+</html>
